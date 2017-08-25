@@ -1,6 +1,6 @@
 const fs = require('fs');
 const jsxml = require('node-jsxml');
-jsxml.XML.setSettings({ignoreComments : false, ignoreProcessingInstructions : false, createMainDocument: true});
+jsxml.XML.setSettings({ignoreComments: false, ignoreProcessingInstructions: false, createMainDocument: true});
 
 module.exports = function (packagePath, pomPath) {
 
