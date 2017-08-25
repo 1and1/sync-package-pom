@@ -1,0 +1,6 @@
+[user]
+	name = Anuubis
+[push]
+	default = simple
+[core]
+	autocrlf = input
